@@ -1,0 +1,28 @@
+.view_project {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  gap: 1rem;
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  &__data {
+    div {
+      user-select: text;
+    }
+  }
+  &__tasks {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+  }
+
+  @media only screen and (max-width: $BIG_TABLET_SIZE) {
+    display: flex;
+    flex-direction: column;
+  }
+}

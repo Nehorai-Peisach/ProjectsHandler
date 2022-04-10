@@ -1,0 +1,26 @@
+//general
+@import './sass/general/base';
+@import './sass/general/colors';
+@import './sass/general/sizes';
+@import './sass/general/media_query';
+@import './sass/general/app';
+
+//main page
+@import './sass/main_page/main';
+@import './sass/main_page/project_item';
+@import './sass/main_page/project_icons';
+
+//view page
+@import './sass/view_page/view_project';
+
+//edit page
+@import './sass/edit_page/edit_projects';
+@import './sass/edit_page/edit_tasks';
+
+//uikit
+@import './sass/ui_kit/top_bar';
+@import './sass/ui_kit/btn';
+@import './sass/ui_kit/input';
+@import './sass/ui_kit/full_page_popup';
+@import './sass/ui_kit/yes_no_popup';
+@import './sass/ui_kit/loading';

@@ -1,0 +1,15 @@
+.project_item {
+  width: 80vw;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: $LIGHT_PRIMARY_COLOR;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1rem;
+}
+
+.done {
+  opacity: 0.5;
+  background-color: $DEVIDERS_COLOR;
+}

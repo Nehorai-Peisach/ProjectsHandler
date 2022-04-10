@@ -1,0 +1,41 @@
+.top_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: calc(100% - 6px);
+  background-color: $DARK_PRIMARY_COLOR;
+  position: fixed;
+  z-index: 10;
+
+  &__icons {
+    margin-right: 2rem;
+    margin-top: 0.5rem;
+    position: absolute;
+    left: calc(100% - 10rem);
+
+    .icon {
+      color: $TEXT_COLOR;
+      margin: 0 0.5rem;
+      padding: 1rem;
+      border-radius: 50%;
+      background-color: $PRIMARY_COLOR;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.8;
+      }
+      &:active {
+        color: $TEXT_COLOR;
+      }
+    }
+  }
+
+  @media only screen and (max-width: $TABLET_SIZE) {
+    & {
+      justify-content: flex-start;
+      &__title {
+        margin: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.edit_project {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 1rem;
+  img {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+  }
+
+  &__data {
+  }
+  .edit_tasks {
+    margin: 5rem;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+  }
+  .btn {
+    margin: auto;
+  }
+  @media only screen and (max-width: $BIG_TABLET_SIZE) {
+    display: flex;
+    flex-direction: column;
+  }
+}

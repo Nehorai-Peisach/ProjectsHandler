@@ -1,0 +1,8 @@
+{
+  "/api/getAllProjects": "/projects?_sort=isDone,dueDate",
+  "/api/getProjectById/:id": "projects?id=:id",
+  "/api/addProject": "/projects",
+  "/api/deleteProject/:id": "/projects/:id",
+  "/api/patchProject/:id": "/projects/:id",
+  "/api/putProject/:id": "/projects/:id"
+}

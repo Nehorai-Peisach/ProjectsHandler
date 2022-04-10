@@ -1,0 +1,11 @@
+.project_icons {
+  font-size: 1.5rem;
+  &__icon {
+    color: $PRIMARY_TEXT_COLOR;
+    padding: 1rem;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

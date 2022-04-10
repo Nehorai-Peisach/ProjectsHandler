@@ -1,0 +1,28 @@
+$TEXT_COLOR: #ffffff;
+
+$PRIMARY_COLOR: #2196f3;
+$DARK_PRIMARY_COLOR: #1976d2;
+$LIGHT_PRIMARY_COLOR: #bbdefb;
+
+$ACCENT_COLOR: #ff5722;
+$PRIMARY_TEXT_COLOR: #212121;
+$SECONDERY_TEXT_COLOR: #757575;
+$DEVIDERS_COLOR: #bdbdbd;
+
+$BG_COLOR: #fafafa;
+
+$LIGHT_GREEN_COLOR: rgb(128, 255, 128);
+$LIGHT_RED_COLOR: rgb(255, 128, 128);
+
+::root {
+  background-color: $BG_COLOR;
+  color: $PRIMARY_TEXT_COLOR;
+}
+
+h1 {
+  color: $TEXT_COLOR;
+}
+
+h2 {
+  color: LIGHT_PRIMARY_COLOR;
+}
